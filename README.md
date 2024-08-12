@@ -18,22 +18,22 @@
 
 Here is the structure of the project:
 
-recipe_finder/
-│
-├── app/
-│   ├── __init__.py         # Initialize the Flask application
-│   ├── main.py             # Contains routes and view functions
-│   ├── recipe_service.py   # Logic for interacting with APIs
-│   ├── static/
-│   │   ├── css/
-│   │   │   └── styles.css # Styles for the application
-│   ├── templates/
-│           └──index.html      # Static HTML file
+recipe_finder/       
+│     
+├── app/     
+│   ├── __init__.py         # Initialize the Flask application     
+│   ├── main.py             # Contains routes and view functions     
+│   ├── recipe_service.py   # Logic for interacting with APIs     
+│   ├── static/     
+│   │   ├── css/     
+│   │   │   └── styles.css # Styles for the application     
+│   ├── templates/     
+│           └──index.html      # Static HTML file     
 │   
-├── run.py                  # Entry point to run the Flask application
-├── requirements.txt        # List of Python dependencies
-└── README.md               # Project documentation
-
+├── run.py                  # Entry point to run the Flask application     
+├── requirements.txt        # List of Python dependencies     
+└── README.md               # Project documentation     
+     
 
 ## Installation
 1. Clone the Repository:
