@@ -1,8 +1,8 @@
 # Recipe Finder
 
 [![made-with-python](https://img.shields.io/badge/Coded%20with-Python-21496b.svg?style=for-the-badge&logo=Python)](https://www.python.org/)
-![Github code size](https://img.shields.io/github/languages/code-size/agustinroviraquezada/recipe_finder?style=for-the-badge&logo=Github)
-![GitHub license](https://img.shields.io/github/license/agustinroviraquezada/recipe_finder?style=for-the-badge&logo=Github)
+![Github code size](https://img.shields.io/github/languages/code-size/agustinroviraquezada/recipefinder?style=for-the-badge&logo=Github)
+![GitHub license](https://img.shields.io/github/license/agustinroviraquezada/recipefinder?style=for-the-badge&logo=Github)
 [![Github Follow](https://img.shields.io/github/followers/agustinroviraquezada?style=social&label=Follow)](https://github.com/agustinroviraquezada)
 
 ## Overview
