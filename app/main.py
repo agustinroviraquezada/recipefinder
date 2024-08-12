@@ -1,8 +1,12 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify,render_template
 from app.recipe_service import get_ingredients
 
 # Create a blueprint for the main routes
 main_blueprint = Blueprint('main', __name__)
+
+@main_blueprint.route('/')
+def index():
+    return render_template('index.html')
 
 @main_blueprint.route('/ingredients', methods=['GET'])
 def ingredients():
