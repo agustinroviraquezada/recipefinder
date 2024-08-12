@@ -71,14 +71,3 @@ def get_ingredients(dish_name):
     if not ingredients:
         ingredients = get_ingredients_from_edamam(dish_name)
     return ingredients
-
-
-if __name__ == '__main__':
-    dish_name = input('Enter the dish name: ')
-    ingredients = get_ingredients(dish_name)
-    if ingredients:
-        print(f'Ingredients for {dish_name}:')
-        for ingredient in ingredients:
-            print(f'- {ingredient}')
-    else:
-        print(f'No ingredients found for {dish_name}.')
